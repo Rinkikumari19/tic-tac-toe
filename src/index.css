@@ -1,13 +1,78 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+    font: 14px "Century Gothic", Futura, sans-serif;
+    /* margin: 20px; */
+    margin-left: 38%;
+    margin-top: 13%;
+    background-color: #006eff;
+  }
+  
+  ol, ul {
+    /* padding-left: 50px; */
+    font-size: 30px;
+    margin-left: -155px;
+  }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
+  button{
+    font-size: 18px;
+    padding: 4px 12px;
+    background-color: chocolate;
+
+  }
+  
+  .board-row:after {
+    clear: both;
+    content: "";
+    display: table;
+  }
+  
+  .status {
+    margin-bottom: 10px;
+  }
+  
+  .square {
+    background: #fff;
+    border: 2px solid black;
+    float: left;
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 34px;
+    height: 74px;
+    margin-right: -1px;
+    margin-top: -1px;
+    padding: 0;
+    text-align: center;
+    width: 74px;
+  }
+  
+  .square:focus {
+    outline: none;
+  }
+  
+  .kbd-navigation .square:focus {
+    background: #ddd;
+  }
+  
+  .game {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .game-info {
+    margin-left: 20px;
+  }
+
+  .next-player{
+      font-size: 25px;
+      font-weight: bold;
+      margin-left: -152px;
+      margin-top: 150%;
+  }
+
+  h1{
+      margin-left: -2%;
+  }
+
+  /* .box{
+      margin-left: 43%;
+  } */
+  
